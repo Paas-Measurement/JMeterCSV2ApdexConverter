@@ -15,7 +15,11 @@ import javax.swing.WindowConstants;
 import de.model.SampleError;
 import de.util.MyUtility;
 import de.util.SampleErrorTableModel;
-
+/**
+ * 
+ * @author Michael Wurst
+ *
+ */
 public class ErrorDetailsDialog extends JDialog implements ActionListener {
 
 	private static final long serialVersionUID = 1L;

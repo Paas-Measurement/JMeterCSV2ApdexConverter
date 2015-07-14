@@ -44,7 +44,11 @@ import de.model.Bucket;
 import de.model.Sample;
 import de.model.SampleError;
 import de.util.MyUtility;
-
+/**
+ * 
+ * @author Michael Wurst
+ *
+ */
 public class MainFrame extends JFrame implements ActionListener {
 
 	private static final long serialVersionUID = 1L;

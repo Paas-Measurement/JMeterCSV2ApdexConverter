@@ -1,7 +1,11 @@
 package de.model;
 
 import java.io.Serializable;
-
+/**
+ * 
+ * @author Michael Wurst
+ *
+ */
 public class SampleError implements Serializable{
 
 	private static final long serialVersionUID = 1L;

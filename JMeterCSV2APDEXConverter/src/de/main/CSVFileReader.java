@@ -8,7 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 import de.model.Sample;
-
+/**
+ * 
+ * @author Michael Wurst
+ *
+ */
 public class CSVFileReader {
 
 	@SuppressWarnings("resource")

@@ -17,7 +17,11 @@ import javax.swing.border.LineBorder;
 import javax.swing.table.DefaultTableColumnModel;
 import javax.swing.table.TableCellRenderer;
 import javax.swing.table.TableColumn;
-
+/**
+ * 
+ * @author Michael Wurst
+ *
+ */
 public class MyUtility {
 	
 	// Attributes

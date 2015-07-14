@@ -15,7 +15,6 @@ import javax.swing.border.EtchedBorder;
 
 /**
  * Label, which will be displayed as status bar
- * 
  * @author Michael Wurst
  * 
  */
