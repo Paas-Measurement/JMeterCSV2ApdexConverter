@@ -9,7 +9,7 @@ import java.util.List;
 
 import de.model.Sample;
 /**
- * 
+ * Helper Class to Read the JMeter CSV-Files into Memory.
  * @author Michael Wurst
  *
  */
@@ -26,8 +26,7 @@ public class CSVFileReader {
 		List<Sample> sampleList = new ArrayList<>();
 		while ((line = bufferedFileReader.readLine()) != null) {
 			if( i == 0){
-				// TODO chekc ob Headline und wenn ja dann CSV-Header-Values als Flag-Tabelle für
-				// einlese Abcheckung 
+				continue;
 			}
 			if (i > 0) {
 				Sample samp = null;
