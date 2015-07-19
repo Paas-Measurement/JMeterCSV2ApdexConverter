@@ -26,7 +26,8 @@ public class CSVFileReader {
 		List<Sample> sampleList = new ArrayList<>();
 		while ((line = bufferedFileReader.readLine()) != null) {
 			if( i == 0){
-				continue;
+				//continue;
+				
 			}
 			if (i > 0) {
 				Sample samp = null;

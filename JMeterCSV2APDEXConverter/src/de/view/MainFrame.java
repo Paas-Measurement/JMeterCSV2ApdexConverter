@@ -380,7 +380,9 @@ public class MainFrame extends JFrame implements ActionListener {
 						testDuration = new Long(0);
 					} else{
 						for(Long temp : testDurationList){
-						tempLongVal += temp.longValue();
+							if(temp != null){ 
+								tempLongVal += temp.longValue();
+							}
 					}
 						testDuration = new Long(tempLongVal / totalFileNo);
 					}
