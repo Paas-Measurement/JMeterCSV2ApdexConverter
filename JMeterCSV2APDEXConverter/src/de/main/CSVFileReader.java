@@ -25,6 +25,7 @@ public class CSVFileReader {
 		int i = 0;
 		List<Sample> sampleList = new ArrayList<>();
 		while ((line = bufferedFileReader.readLine()) != null) {
+			i++;
 			if( i == 0){
 				//continue;
 				
@@ -40,8 +41,7 @@ public class CSVFileReader {
 					samp = Sample.convertJMeterCSVString2Object(line);
 				}
 				sampleList.add(samp);
-			}
-			i++;
+			}			
 		}
 		
 		return sampleList;
