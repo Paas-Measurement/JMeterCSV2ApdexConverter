@@ -71,7 +71,7 @@ public class MainFrame extends JFrame implements ActionListener {
 	private static final String S_COUNT = "n(Satisfied): ";
 	private static final String N_COUNT = "n(Total): ";
 	private static final String ERROR_COUNT = "n(Errors): ";
-	private static final String TEST_DURATION = "Testdauer: ";
+	private static final String TEST_DURATION = "Test Duration: ";
 	private static final String ERROR_DETAILS = "Show Details...";
 	private static final String FILE = "File";
 	private static final String EXIT = "Exit";
